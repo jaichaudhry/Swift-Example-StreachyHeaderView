@@ -14,6 +14,8 @@
 		493F3CD21C43BAAC008AED66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493F3CD01C43BAAC008AED66 /* LaunchScreen.storyboard */; };
 		493F3CDD1C43BAAC008AED66 /* JCStrechyHeaderViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493F3CDC1C43BAAC008AED66 /* JCStrechyHeaderViewTests.swift */; };
 		493F3CE81C43BAAC008AED66 /* JCStrechyHeaderViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493F3CE71C43BAAC008AED66 /* JCStrechyHeaderViewUITests.swift */; };
+		493F3CFF1C43CE1E008AED66 /* ImageHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493F3CFE1C43CE1E008AED66 /* ImageHeaderView.swift */; };
+		493F3D011C43DB9F008AED66 /* marvel.png in Resources */ = {isa = PBXBuildFile; fileRef = 493F3D001C43DB9F008AED66 /* marvel.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		493F3CE31C43BAAC008AED66 /* JCStrechyHeaderViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCStrechyHeaderViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		493F3CE71C43BAAC008AED66 /* JCStrechyHeaderViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCStrechyHeaderViewUITests.swift; sourceTree = "<group>"; };
 		493F3CE91C43BAAC008AED66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		493F3CFE1C43CE1E008AED66 /* ImageHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHeaderView.swift; sourceTree = "<group>"; };
+		493F3D001C43DB9F008AED66 /* marvel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marvel.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		493F3CC61C43BAAC008AED66 /* JCStrechyHeaderView */ = {
 			isa = PBXGroup;
 			children = (
+				493F3CF71C43C071008AED66 /* Resources */,
 				493F3CC71C43BAAC008AED66 /* AppDelegate.swift */,
 				493F3CC91C43BAAC008AED66 /* ViewController.swift */,
+				493F3CFE1C43CE1E008AED66 /* ImageHeaderView.swift */,
 				493F3CCB1C43BAAC008AED66 /* Main.storyboard */,
 				493F3CCE1C43BAAC008AED66 /* Assets.xcassets */,
 				493F3CD01C43BAAC008AED66 /* LaunchScreen.storyboard */,
@@ -123,6 +129,14 @@
 				493F3CE91C43BAAC008AED66 /* Info.plist */,
 			);
 			path = JCStrechyHeaderViewUITests;
+			sourceTree = "<group>";
+		};
+		493F3CF71C43C071008AED66 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				493F3D001C43DB9F008AED66 /* marvel.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				493F3CD21C43BAAC008AED66 /* LaunchScreen.storyboard in Resources */,
+				493F3D011C43DB9F008AED66 /* marvel.png in Resources */,
 				493F3CCF1C43BAAC008AED66 /* Assets.xcassets in Resources */,
 				493F3CCD1C43BAAC008AED66 /* Main.storyboard in Resources */,
 			);
@@ -256,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				493F3CFF1C43CE1E008AED66 /* ImageHeaderView.swift in Sources */,
 				493F3CCA1C43BAAC008AED66 /* ViewController.swift in Sources */,
 				493F3CC81C43BAAC008AED66 /* AppDelegate.swift in Sources */,
 			);
